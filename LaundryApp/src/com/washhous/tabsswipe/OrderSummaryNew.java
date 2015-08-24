@@ -186,6 +186,8 @@ public class OrderSummaryNew extends FragmentActivity implements
 					double sum3=0;
 					sum3=Double.parseDouble(drtCleanItems.get("total_sum").toString());
 					sumDryCln=sumDryCln+sum3;
+					
+					//hi
 				}
 			} catch (ParseException e) {
 				// TODO Auto-generated catch block
