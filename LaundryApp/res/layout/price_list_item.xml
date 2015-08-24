@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingBottom="1dp"
+            android:paddingLeft="8dp"
+            android:paddingRight="8dp"
+            android:paddingTop="2dp" >
+
+            <TextView
+                android:id="@+id/wash_and_fold_item_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:text="Wash &amp; Fold"
+                android:textColor="@color/blue"
+                android:textSize="15dp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:gravity="right"
+                android:padding="1dp"
+                android:text="$"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/wash_and_fold_result_value"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.3"
+                android:gravity="left"
+                android:padding="3dp"
+                android:text="2.77"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

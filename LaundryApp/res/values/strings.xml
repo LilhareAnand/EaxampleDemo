@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WashHous</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_sign_in_option">Sign In Option</string>
+    <string name="title_activity_sign_in">Login</string>
+    <string name="title_activity_term_condition">Term And Condition</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+    <!-- Common -->
+
+    <string name="hint_email_id"> Email</string>
+    <string name="hint_password">Password</string>
+    <string name="label_sign_in">Login</string>
+    <!-- activity_splash.xml -->
+    <!-- activity_sign_in_option.xml -->
+
+    <string name="label_sign_in_with_facebook">Sign In With Facebook</string>
+    <string name="label_sign_up">Create an account</string>
+
+    <!-- activity_sign_in.xml -->
+
+    <string name="link_label_forgot_password">Forgot Password?</string>
+    <string name="title_activity_sign_up">SignUp</string>
+
+    <!-- activity_sign_up.xml -->
+    <string name="label_fill_information">Fill up all information </string>
+    <string name="hint_first_name">First Name</string>
+    <string name="hint_last_name">Last Name</string>
+    <string name="hint_phone_number">Phone Number</string>
+    <string name="hint_alternative_phone_number">alternative Phone Number</string>
+    <string name="hint_postal_code">Postal Code</string>
+    <string name="hint_city">City</string>
+    <string name="hint_address">Address</string>
+    <string name="hint_state">Province/State</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="label_submit">Submit</string>
+    <string name="title_activity_facebook_sign_in">FacebookSignIn</string>
+    <string name="title_activity_order_summary">Order Summary</string>
+
+    <!-- activity_price_list.xml -->
+    <string name="label_t_shirt">Shirt/T-Shirt/Blouse</string>
+    <string name="label_skirt">Skirt</string>
+    <string name="label_sweter">Sweater/Cardigan</string>
+    <string name="label_trouser">Trousers/Pants/Jeans</string>
+    <string name="label_dress_short">Dress(Short)</string>
+    <string name="label_dress_long">Dress(Long)</string>
+    <string name="label_swim_suit">Swimsuits</string>
+    <string name="label_pull_over">Pullover</string>
+    <string name="label_underpants">Underpants</string>
+    <string name="label_night_dress">Night Dress</string>
+    <string name="label_price">3.00</string>
+
+    <!-- activity_facebook_sign_in.xml -->
+    <string name="label_login_facebook">Login with Facebook</string>
+    <string name="label_signup_facebook">Signup with Facebook</string>
+    <string name="hint_username">Enter Username</string>
+
+    <!-- activity_my_credit_balance.xml -->
+    <string name="label_current_balance">Current Balance</string>
+    <string name="label_top_up_option">Top Up Option</string>
+    <string name="label_payment_option">Payment Option</string>
+    <string name="label_paypal">Pay Pal </string>
+    <string name="label_visa">Visa</string>
+    <string name="label_master">Master</string>
+    <string name="label_checkout">Checkout</string>
+
+    <string-array name="array_weight">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="array_country">
+        <item>Country</item>
+        <item>Canada</item>
+        <item>USA</item>
+    </string-array>
+    <string-array name="array_province">
+        <item>State/Province</item>
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Northwest Territories</item>
+        <item>Nova Scotia</item>
+        <item>Nunavut</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon Territory</item>
+    </string-array>
+    <string-array name="United_States">
+        <item>State/Province</item>
+        <item>Alabama</item>
+        <item>Alaska</item>
+        <item>Arizona</item>
+        <item>Arkansas</item>
+        <item>California</item>
+        <item>Colorado</item>
+        <item>Connecticut</item>
+        <item>Delaware</item>
+        <item>District Of Columbia</item>
+        <item>Florida</item>
+        <item>Georgia</item>
+        <item>Hawaii</item>
+        <item>Idaho</item>
+        <item>Indiana</item>
+        <item>Illinois</item>
+        <item>Iowa</item>
+        <item>Kansas</item>
+        <item>Kentu</item>
+        <item>Louisiana</item>
+        <item>Maine</item>
+        <item>Maryland</item>
+        <item>Massachusetts</item>
+        <item>Michigan</item>
+        <item>Minnesota</item>
+        <item>Mississipi</item>
+        <item>Missouri</item>
+        <item>Montana</item>
+        <item>Nebraska</item>
+        <item>Nevada</item>
+        <item>New Hampshire</item>
+        <item>New Jersey</item>
+        <item>New Mexico</item>
+        <item>New York</item>
+        <item>North Carolina</item>
+        <item>North Dakota</item>
+        <item>Ohio</item>
+        <item>Oklahoma</item>
+        <item>Oregon</item>
+        <item>Pennysylvania</item>
+        <item>Rhode Island</item>
+        <item>South Carolina</item>
+        <item>South Dakota</item>
+        <item>Tennessee</item>
+        <item>Texas</item>
+        <item>Utah</item>
+        <item>Vermont</item>
+        <item>Virginia</item>
+        <item>Washington</item>
+        <item>West Virginia</item>
+        <item>Wiscosin</item>
+        <item>Wyoming</item>
+        <item>Armed Forces(Americans)</item>
+        <item>Armed Forces(Europe,Canada,Middle East,Africa)</item>
+        <item>Armed Forces(Pacific)</item>
+        <item>American Samoa</item>
+        <item> Federated States of Micronesia</item>
+        <item>Guam</item>
+        <item>Marshall Island</item>
+        <item>Northern Mariana Islands</item>
+        <item>Palau</item>
+        <item> Puerto Rico</item>
+        <item>Virgin Island</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>My Profile</item>
+        <item>Order</item>
+        <item>Credit Balance</item>
+        <item>Promotions</item>
+        <item>PriceList</item>
+        <item>FAQ</item>
+        <item>About WashHous</item>
+        <item>Terms and Conditions</item>
+        <item>Logout</item>
+        <item>Place An Order</item>
+    </string-array>
+
+    <string name="title_activity_menu_drawer">Menu</string>
+    <string name="title_activity_my_order_box">Order Box</string>
+    <string name="title_activity_my_credit_balance">Credit Balance</string>
+    <string name="title_activity_my_profile">My Profile</string>
+    <string name="title_activity_price_list">Price List</string>
+    <string name="title_activity_faq">FAQ</string>
+    <string name="title_activity_promotions">Promotions</string>
+    <string name="title_activity_about">About WashHous</string>
+    <string name="title_activity_my_order_inbox">Order</string>
+    <string name="title_activity_place_an_order1">PlaceAnOrder1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_special_offer">SpecialOffer</string>
+    <string name="title_activity_order_option">OrderOption</string>
+    <string name="title_activity_cloths">Cloths</string>
+    <string name="title_activity_order_summery">OrderSummery</string>
+    <string name="title_activity_order_list">OrderList</string>
+    <string name="title_activity_terms_and_conditions"></string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
+
+    <drawable name="actionbar_color">#F5F5F5</drawable>
+
+    <string name="title_activity_order_option_fold">OrderOptionFold</string>
+    <string name="title_activity_order_option_iron">OrderOptionIron</string>
+    <string name="title_activity_wash_and_fold_list_page">WashAndFoldListPage</string>
+    <string name="title_activity_wash_and_iron_page_list">WashAndIronPageList</string>
+    <string name="title_activity_dry_clean_page_list">DryCleanPageList</string>
+    <string name="title_activity_inventory_list_page">InventoryListPage</string>
+
+</resources>

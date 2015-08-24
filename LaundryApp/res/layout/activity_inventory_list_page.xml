@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    tools:context="com.washhous.laundryapp.WashAndFoldListPage" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.washhous.parse.ExpandListView
+            android:id="@+id/lv_inventory_items"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@color/black_light"
+            android:dividerHeight="1.0sp"
+            android:isScrollContainer="false"
+            android:transcriptMode="alwaysScroll" >
+        </com.washhous.parse.ExpandListView>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_inventory_done"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/blue"
+        android:gravity="center"
+        android:text="Done"
+        android:textColor="@color/white"
+        android:textSize="23sp" />
+
+</RelativeLayout>

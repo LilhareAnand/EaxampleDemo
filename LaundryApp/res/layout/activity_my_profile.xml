@@ -1,0 +1,96 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/whitish"
+    android:orientation="vertical"
+    tools:context="com.washhous.drawermenus.MyProfile" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="180dp"
+        android:background="@color/blue"
+        android:orientation="vertical" >
+
+        <com.washhous.comman.RoundedImageView
+            android:id="@+id/imageView_round"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="110dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/bakground" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="75dp"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/clock_small"
+            android:gravity="center_horizontal"
+            android:text="Digvijay Machale"
+            android:textColor="@color/white"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawablePadding="10dp"
+            android:gravity="center_horizontal"
+            android:text="Solapur"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/key_small"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="Wash123#"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/key_small"
+        android:drawablePadding="5dp"
+        android:padding="10dp"
+        android:text="+93-8983525487"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/key_small"
+        android:drawablePadding="10dp"
+        android:padding="10dp"
+        android:text="mymailid@gmail.com"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="@color/white"
+        android:drawableLeft="@drawable/key_small"
+        android:drawablePadding="10dp"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+        android:text="Baner Pashan Road Pune"
+        android:textColor="@color/blue"
+        android:textSize="15sp" />
+
+</LinearLayout>

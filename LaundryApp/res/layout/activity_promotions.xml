@@ -1,0 +1,212 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.washhous.drawermenus.Promotions" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Promotions"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!--
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2.0" >
+
+        <TextView
+            android:id="@+id/txt_t_shirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Save upto 80% on Wash and Fold"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_p1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Offer ends 7PM Friday"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2.0" >
+
+        <TextView
+            android:id="@+id/txt_t_shirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Sign up and get 25% off	"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_p1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Offer ends 8PM Monday "
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2.0" >
+
+        <TextView
+            android:id="@+id/txt_t_shirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Biggest offer on Tuesday"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_p1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Get one on one"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2.0" >
+
+        <TextView
+            android:id="@+id/txt_t_shirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Get fastest delivery option"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/txt_p1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="0.8"
+            android:gravity="center_horizontal"
+            android:text="Offer on delivery"
+            android:textColor="@color/blue"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+    
+        <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:weightSum="2.0" >
+
+        <TextView
+            android:id="@+id/txt_t_shirt"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_weight="2.0"
+            android:gravity="center_horizontal"
+            android:text="Sign up and get 25% off"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+
+
+
+
+    -->
+
+</LinearLayout>

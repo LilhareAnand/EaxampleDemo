@@ -1,0 +1,380 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dp"
+    android:orientation="vertical"
+    tools:context=".MyOrderBox" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/blue"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Order Screen"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <!-- <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="Save upto "
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_p1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="In Process"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/calendar"
+                android:gravity="center_vertical"
+                android:text="03-03-2015"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/clock" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="Save upto "
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_p1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="In Process"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/calendar"
+                android:gravity="center_vertical"
+                android:text="03-03-2015"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/clock" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="Save upto "
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_p1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="In Process"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/calendar"
+                android:gravity="center_vertical"
+                android:text="03-03-2015"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/deliverybox" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="Save upto "
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_p1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="In Process"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/calendar"
+                android:gravity="center_vertical"
+                android:text="03-03-2015"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/clock" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="left"
+                android:text="Save upto "
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/txt_p1"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1.0"
+                android:gravity="right"
+                android:text="In Process"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal"
+            android:weightSum="2.0" >
+
+            <TextView
+                android:id="@+id/txt_t_shirt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:drawableLeft="@drawable/calendar"
+                android:gravity="center_vertical"
+                android:text="03-03-2015"
+                android:textColor="@color/blue"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:src="@drawable/clock" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0.10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/black" >
+    </LinearLayout>
+ -->
+</LinearLayout>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.washhous.laundryapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="14"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" >
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.AppCompat.Light" >
+        <activity
+            android:name=".SplashActivity"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Black.NoTitleBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".SignInOption"
+            android:label="@string/title_activity_sign_in_option" >
+        </activity>
+        <activity
+            android:name=".SignIn"
+            android:label="@string/title_activity_sign_in" >
+        </activity>
+        <activity
+            android:name=".SignUp"
+            android:label="@string/title_activity_sign_up" >
+        </activity>
+        <activity
+            android:name=".SignInFacebook"
+            android:label="@string/title_activity_facebook_sign_in" >
+        </activity>
+        <activity
+            android:name="com.washhous.tabsswipe.OrderSummaryNew"
+            android:label="@string/title_activity_order_summary" >
+        </activity>
+        <activity
+            android:name="com.washhous.menudrawer.MenuDrawer"
+            android:label="@string/title_activity_menu_drawer" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.PlaceAnOrder"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:label="@string/title_activity_my_order_box" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.MyCreditBalance"
+            android:label="@string/title_activity_my_credit_balance" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.MyProfile"
+            android:label="@string/title_activity_my_profile" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.PriceList"
+            android:label="@string/title_activity_price_list" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.FAQ"
+            android:label="@string/title_activity_faq" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.Promotions"
+            android:label="@string/title_activity_promotions" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.About"
+            android:label="@string/title_activity_about" >
+        </activity>
+        <activity
+            android:name=".MyOrderInbox"
+            android:label="@string/title_activity_my_order_inbox" >
+        </activity>
+        <activity
+            android:name=".PlaceAnOrder1"
+            android:label="@string/title_activity_place_an_order1" >
+        </activity>
+        <activity
+            android:name="com.washhous.comman.SpecialOffer"
+            android:label="@string/title_activity_special_offer" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.MyOrderBox"
+            android:label="@string/title_activity_my_order_box" >
+        </activity>
+        <activity
+            android:name=".OrderOptionWashAndFold"
+            android:label="@string/title_activity_order_option" >
+        </activity>
+        <activity
+            android:name=".Cloths"
+            android:label="@string/title_activity_cloths" >
+        </activity>
+        <activity
+            android:name=".OrderSummery"
+            android:label="@string/title_activity_order_summery" >
+        </activity>
+        <activity
+            android:name=".OrderList"
+            android:label="@string/title_activity_order_list" >
+        </activity>
+        <activity
+            android:name="com.washhous.drawermenus.TermsAndConditions"
+            android:label="@string/title_activity_terms_and_conditions" >
+        </activity>
+        <activity
+            android:name="com.washhous.menudrawer.MainActivity"
+            android:label="@string/title_activity_terms_and_conditions" >
+        </activity>
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password" >
+        </activity>
+        <activity
+            android:name=".OrderOptionWashAndIron"
+            android:label="@string/title_activity_order_option_iron" >
+        </activity>
+        <activity
+            android:name=".OrderOptionDryCleaning"
+            android:label="@string/title_activity_order_option_iron" >
+        </activity>
+        <activity
+            android:name=".WashAndFoldListPage"
+            android:label="@string/title_activity_wash_and_fold_list_page" >
+        </activity>
+        <activity
+            android:name=".WashAndIronListPage"
+            android:label="@string/title_activity_wash_and_iron_page_list" >
+        </activity>
+        <activity
+            android:name=".DryCleanPageList"
+            android:label="@string/title_activity_dry_clean_page_list" >
+        </activity>
+        <activity
+            android:name=".InventoryListPage"
+            android:label="@string/title_activity_inventory_list_page" >
+        </activity>
+    </application>
+
+</manifest>

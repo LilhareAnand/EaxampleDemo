@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f4f6"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#6a6a69" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Dry Cleaning"
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_dry_clean"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.08"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:src="@drawable/basket" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Dry Cleaning items :"
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/housevalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.2"
+                    android:text="0"
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_pickup_date_dry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.08"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:src="@drawable/datetime" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Pickup :"
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/pickvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.2"
+                    android:text=""
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_delivery_date_dry"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.08"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:src="@drawable/datecheck" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Delivery :"
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <TextView
+                    android:id="@+id/deliveryvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_weight="0.2"
+                    android:text=""
+                    android:textColor="#0079ff"
+                    android:textSize="25sp" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_confirm_orderdry"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:background="#0079ff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Confirm Order"
+            android:textColor="#ffffff"
+            android:textSize="30sp" />
+    </LinearLayout>
+
+</LinearLayout>

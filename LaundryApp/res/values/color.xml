@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Slider -->
+    <color name="list_item_title">#fff</color>
+    <color name="list_background">#AF151515</color>
+    <color name="list_background_pressed">#50c0e9</color>
+    <color name="list_divider">#fff</color>
+    <color name="counter_text_bg">#626262</color>
+    <color name="counter_text_color">#c5c4c4</color>
+    <color name="facebook">#4a6ea9</color>
+    <color name="white">#ffffff</color>
+    <color name="new_user">#6bc0ec</color>
+    <color name="button_blue">#3d99ff</color>
+    <color name="blue">#0079FF</color>
+    <color name="black">#000000</color>
+    <color name="black_light">#DCE0E0</color>
+    <color name="whitish">#F4F4F4</color>
+    <color name="drawermenusback_blue">#2cb1e1</color>
+    <color name="drawer_item_color">#959699</color>
+
+</resources>

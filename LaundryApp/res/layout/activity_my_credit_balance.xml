@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context="com.washhous.drawermenus.MyCreditBalance" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:background="@color/blue"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="Credit Balance Screen"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edt_current_balance"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_black_border"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="500$"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/blue"
+        android:gravity="center_horizontal"
+        android:padding="5dp"
+        android:text="@string/label_top_up_option"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <Spinner
+        android:id="@+id/spn_country_credit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/rounded_black_border"
+        android:padding="5dp"
+        android:textSize="20sp"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="30dp"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_paypal"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_visa"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:text="@string/label_master"
+            android:textColor="@color/blue"
+            android:textSize="20sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_checkout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:background="@color/blue"
+        android:text="@string/label_checkout"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:visibility="gone" />
+
+</LinearLayout>

@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f4f6"
+    android:orientation="vertical" >
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#6a6a69" />
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TableLayout
+            android:id="@+id/tblMainIron"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TableRow>
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="Wash &amp; Iron"
+                    android:textColor="#0079ff"
+                    android:textSize="20sp" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <ImageView
+                    android:id="@+id/img_ecowi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/detergent_pressed" />
+
+                <ImageView
+                    android:id="@+id/img_sfswi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/free_scent_pressed" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:orientation="horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Eco Detergent $0.05/item"
+                    android:textColor="#0079ff"
+                    android:textSize="18sp" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="Scent free softner $0.05/item"
+                    android:textColor="#0079ff"
+                    android:textSize="18sp" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_weight_estimatewi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.1"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:background="@null"
+                    android:src="@drawable/basket" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Iron Items :"
+                    android:textColor="#0079ff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/house_hold_valuewi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="100dp"
+                    android:layout_weight="0.2"
+                    android:text="0"
+                    android:textColor="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.2"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_pickup_datewi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.07"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@null"
+                    android:src="@drawable/datetime" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.4"
+                    android:text="Pickup :"
+                    android:textColor="#0079ff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/pickvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="50dp"
+                    android:layout_weight="0.8"
+                    android:text=""
+                    android:textColor="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/table_delivey_datewi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="15dp"
+                android:background="#ffffff"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:paddingBottom="2dp"
+                android:paddingLeft="2dp"
+                android:paddingRight="10dp"
+                android:paddingTop="2dp" >
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="0.07"
+                    android:background="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.3"
+                    android:background="@null"
+                    android:src="@drawable/datecheck" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.45"
+                    android:text="Delivery :"
+                    android:textColor="#0079ff"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/deliveryvalue"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="0.75"
+                    android:text=""
+                    android:textColor="#0079ff" />
+
+                <ImageView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.1"
+                    android:src="@drawable/arrow_next" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_confirm_orderwi"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:background="#0079ff"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/txt_confirm_orderwf"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Confirm Order"
+            android:textColor="#ffffff"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+</LinearLayout>
