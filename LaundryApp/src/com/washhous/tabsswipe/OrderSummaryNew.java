@@ -43,6 +43,7 @@ public class OrderSummaryNew extends FragmentActivity implements
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_order_summary_new);
 		actionBar = getActionBar();
+		//commting by ananand
 		LayoutInflater li=getLayoutInflater();
 		View view=li.inflate(R.layout.actionbar_order_summary2, null);
 		ImageButton btn_img_back_order_summary=(ImageButton)view.findViewById(R.id.btn_img_back_order_summary);
@@ -130,6 +131,7 @@ public class OrderSummaryNew extends FragmentActivity implements
 			String[] tabs = { "Wash & Fold\n     ("+ss[0]+")", "Wash & Iron\n      ("+ss[1]+")", 
 					"Dry Cleaning\n      ("+ss[2]+")" };
 			title_grandtotal.setText("Total: $"+ss[3]);
+
 			//myActionbar.setHomeButtonEnabled(false);
 			myActionbar.setNavigationMode(ActionBar.NAVIGATION_MODE_TABS);
 
